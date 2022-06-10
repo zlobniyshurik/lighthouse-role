@@ -1,13 +1,5 @@
 ---
 # tasks file for lighthouse
-- name: Create webfolder (if not exists)
-  become: true
-  ansible.builtin.file:
-    path: "{{ lighthouse_web_folder }}"
-    state: directory
-    mode: '0755'
-    owner: "{{ lighthouse_www_user }}"
-    group: "{{ lighthouse_www_group }}"
 
 - name: Copy Lighthouse to webfolder
   become: true

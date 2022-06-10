@@ -7,11 +7,5 @@ lighthouse_url: "git@github.com:VKCOM/lighthouse.git"
 #Lighthouse version
 lighthouse_version: "latest"
 
-#User for access to webserver folders
-lighthouse_www_user: "nginx"
-
-#Group for access to webserver folders
-lighthouse_www_group: "nginx"
-
 #webserver folder for Lighthouse
-lighthouse_web_folder: "/var/www/lighthouse"
+lighthouse_web_folder: "/tmp/lighthouse"
