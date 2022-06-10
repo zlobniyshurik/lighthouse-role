@@ -5,7 +5,7 @@
 lighthouse_url: "https://github.com/VKCOM/lighthouse.git"
 
 #Lighthouse version
-lighthouse_version: "latest"
+lighthouse_version: ""
 
 #webserver folder for Lighthouse
 lighthouse_web_folder: "/tmp/lighthouse"
