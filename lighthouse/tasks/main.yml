@@ -11,6 +11,7 @@
 - name: Copy Lighthouse to webfolder
   become: true
   ansible.builtin.git:
+    separate_git_dir: "{{ lighthouse_git_folder }}"
     repo: "{{ lighthouse_url }}"
     dest: "{{ lighthouse_web_folder }}"
     version: "{{ lighthouse_version }}"

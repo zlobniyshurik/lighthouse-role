@@ -2,10 +2,13 @@
 # defaults file for lighthouse
 
 #Lighthouse URL
-lighthouse_url: "git@github.com:VKCOM/lighthouse.git"
+lighthouse_url: "https://github.com/VKCOM/lighthouse.git"
 
 #Lighthouse version
 lighthouse_version: "latest"
 
 #webserver folder for Lighthouse
 lighthouse_web_folder: "/tmp/lighthouse"
+
+#.git part of Lighthouse
+lighthouse_git_folder: "/tmp/lighthouse.git"
