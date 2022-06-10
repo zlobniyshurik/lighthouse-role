@@ -2,7 +2,7 @@
 # tasks file for lighthouse
 
 - name: Install git (if not exists)
-  become:true
+  become: true
   ansible.builtin.dnf:
     name: git>=1.7.1
     state: present
