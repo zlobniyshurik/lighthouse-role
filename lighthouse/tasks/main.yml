@@ -1,6 +1,12 @@
 ---
 # tasks file for lighthouse
 
+- name: Install git (if not exists)
+  become:true
+  ansible.builtin.dnf:
+    name: git>=1.7.1
+    state: present
+
 - name: Copy Lighthouse to webfolder
   become: true
   ansible.builtin.git:
